@@ -12,11 +12,97 @@ html {
 
 body {
   font-size: 1.6rem;
+  background-image: url(../img/background.jpg);
+  background-position: fixed;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
 }
 
 img {
   max-width: 100%;
 }
 
+header {
+  width: 100%;
+  background-position: fixed;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+header ul {
+  display: flex;
+}
 
+header ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  margin-left: 2rem;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+footer {
+  background-color: #000;
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.footer-contacto {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-contacto ul li{
+  list-style: none;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copy p {
+  margin-left: 2rem;
+}
+
+.footer-copy ul {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.footer-copy ul li {
+  list-style: none;
+}
+
+.footer-copy ul li a{
+  color: #eee;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+hr {
+  color: #eee;
+  opacity: .2;
+}
