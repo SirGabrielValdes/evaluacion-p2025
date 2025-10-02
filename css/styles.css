@@ -74,6 +74,11 @@ footer {
   flex-direction: column;
 }
 
+.footer-contacto nav{
+  display: flex;
+  flex-direction: column;
+}
+
 .info-contacto ul li{
   list-style: none;
 }
@@ -105,4 +110,93 @@ footer {
 hr {
   color: #eee;
   opacity: .2;
+}
+
+h2 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: #fff;
+  display: flex;
+  flex-basis: 75%;
+}
+
+.mangas {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 5rem;
+
+}
+
+.mangas img {
+  height: 30rem;
+  object-fit: cover;
+}
+.masvendidos {
+  display: flex;
+  flex-direction: column;
+}
+
+.masvendidos img {
+  width: 5rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.masvendidos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.masvendidos ul li span{
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.masvendidos ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog {
+  background-color: #fff;
+}
+
+.blog h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.blog-contenido {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  background-color: lightcyan;
+  border-radius: .9rem;
+  height: 40rem;
+  
+}
+
+.blog-contenido img {
+  width: 20%;
+}
+
+.blog-info {
+  margin: 0 5rem 0 5rem;
 }
